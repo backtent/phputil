@@ -1,0 +1,40 @@
+{
+  "name": "backtend/phputil",
+  "description": "A PHP Util Functions",
+  "license": "Apache-2.0",
+  "version": "1.0.0-alpha",
+  "authors": [
+    {
+      "name": "kcleung",
+      "email": "kctopc@gmail.com"
+    }
+  ],
+  "keywords": [
+    "phputil",
+    "halt",
+    "dump"
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7.27 || ~6.5.5"
+  },
+  "minimum-stability": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "backtend\\phputil\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "backtend\\phputil\\": "tests/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
