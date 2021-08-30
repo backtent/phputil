@@ -5,7 +5,7 @@ A PHP Utils Helpers
 # composer test
 composer init
 composer config repositories.backtend path "D:\backtend\phputil"
-composer require backtend/phputil:^1.0 -vvv
+composer require backtend/phputil:^1.0.0 -vvv
 
 composer update backtend/phputil
 

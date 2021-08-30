@@ -2,7 +2,7 @@
   "name": "backtend/phputil",
   "description": "A PHP Util Functions",
   "license": "Apache-2.0",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1@alpha",
   "authors": [
     {
       "name": "kcleung",
