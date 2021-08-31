@@ -1,8 +1,8 @@
 {
   "name": "backtend/phputil",
-  "description": "A PHP Util Functions",
+  "description": "A PHP Util Package",
   "license": "Apache-2.0",
-  "version": "1.0.5",
+  "type": "library",
   "authors": [
     {
       "name": "kcleung",
@@ -15,10 +15,10 @@
     "dump"
   ],
   "require": {
-    "php": ">=7.1"
+    "php": "^7.0 || ^8.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "~9.5.8"
+    "phpunit/phpunit": "~8"
   },
   "minimum-stability": "stable",
   "autoload": {
@@ -32,9 +32,6 @@
   "autoload-dev": {
     "psr-4": {
       "backtend\\phputil\\": "tests/"
-    },
-    "files": [
-      "src/functions.php"
-    ]
+    }
   }
 }
